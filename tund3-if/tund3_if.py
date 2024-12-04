@@ -67,3 +67,48 @@ except:
     print("Numbird")
 
 print("\n--- ulesanne 4 ---\n")
+
+hind = float(input("Mis hind on? : "))
+if hind >= 700:
+    hind = hind - (hind * 0.3)  # Применяем скидку 30%
+    print(f"Sai allahindlus 30%, uus hind on {hind}")
+else:
+    print(f"soodustus pole, hind on {hind}")
+
+print("\n--- ulesanne 5 ---\n")
+
+temp = float(input("Mis on toatemperatuur? : "))
+
+if temp > 18:
+    print(f" {temp} on üle 18 kraadi, kõik on korras!")
+else:
+    print(f" {temp} on madalam kui 18 kraadi.")
+
+print("\n--- ulesanne 6 ---\n")
+
+kasv = float(input("Mis on sinu kasv? "))
+if kasv<=160:
+    print("lühike kasv")
+elif kasv<180:
+    print("keskmine kasv")
+elif kasv>180:
+    print("kõrg kasv")
+
+print("\n--- ulesanne 7 ---\n")
+
+
+sugu = str(input("Mis on sinu sugu? M/N "))
+if sugu.upper()=="M":
+    print("Tere mees")
+elif sugu.upper()=="N":
+    print("Tere naine")
+
+kasv= float(input("Mis on sinu kasv? "))
+if kasv<=160:
+    print("lühike kasv")
+elif kasv<180:
+    print("keskmine kasv")
+elif kasv>180:
+    print("kõrg kasv")
+
+print("\n--- ulesanne 8 ---\n")
