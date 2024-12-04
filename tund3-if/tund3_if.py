@@ -111,4 +111,6 @@ elif kasv<180:
 elif kasv>180:
     print("kõrg kasv")
 
+
 print("\n--- ulesanne 8 ---\n")
+
