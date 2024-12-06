@@ -219,7 +219,7 @@ import math
 ljudi = int(input("введите кол-во пассажиров: "))
 mesta = int(input("введите кол-во мест: "))
 kolvo_avtobusov = (ljudi + mesta - 1) // mesta # % это способ округлить результат деления в большую сторону без использования дополнительных библиотек
-ljudi_v_poslednem_avtobuse = ljudi % mesta if ljudi % mesta != 0 else mesta
+ljudi_v_poslednem_avtobuse = ljudi % mesta if ljudi % mesta != 0 else mesta # != — это оператор неравенства в Python. Он проверяет, не равны ли два значения. Если значения не равны, то результат выражения будет True. Если они равны, то результат будет False.
 # % — оператор остатка от деления
 print(f"Необходимо {kolvo_avtobusov} автобусов.")
-print(f"В последнем автобусе будет {ljudi_v_poslednem_avtobuse} человек.")
+print(f"В последнем автобусе будет {ljudi_v_poslednem_avtobuse} человек.") 
